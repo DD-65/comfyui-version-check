@@ -14,6 +14,6 @@ swiftc -O -whole-module-optimization comfyui-version-check.swift -o comfyui-vers
 
 3. Copy to /usr/bin & run: (optional)
 ```bash
-sudo mv /usr/local/bin/comfyui-version-check /usr/local/bin/cvc
+sudo mv comfyui-version-check /usr/local/bin/cvc
 cvc
 ```
