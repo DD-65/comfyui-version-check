@@ -147,7 +147,7 @@ func main() -> Int32 {
 
         let cmp = compareSemver(local, remote)
         if cmp == .orderedSame {
-            print("NO: local \(local) == remote \(remote)")
+            print("NO UPDATE: local \(local) == remote \(remote)")
             return 0
         } else if cmp == .orderedAscending {
             print("UPDATE!!: local \(local) < remote \(remote)")
