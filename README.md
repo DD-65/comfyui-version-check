@@ -9,7 +9,7 @@ git clone https://github.com/DD-65/comfyui-version-check && cd comfyui-version-c
 
 2. Compile to binary:
 ```bash
-swiftc -O -whole-module-optimization comfyui-version-check.swift -o comfyui-version-check
+swiftc -O -whole-module-optimization comfyui-version-check.swift -o cvc
 ```
 
 3. Copy to /usr/bin & run: (optional)
