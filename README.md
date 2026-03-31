@@ -12,8 +12,8 @@ git clone https://github.com/DD-65/comfyui-version-check && cd comfyui-version-c
 swiftc -O -whole-module-optimization comfyui-version-check.swift -o cvc
 ```
 
-3. Copy to /usr/bin & run: (optional)
+3. Copy to /usr/bin (so that it's included in PATH) & run: (optional)
 ```bash
-sudo mv comfyui-version-check /usr/local/bin/cvc
+sudo mv cvc /usr/local/bin/cvc
 cvc
 ```
