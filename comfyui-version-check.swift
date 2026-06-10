@@ -79,7 +79,7 @@ func readPlistVersion(plistPath: String) throws -> String {
 }
 
 func fetchLatestTag() throws -> String {
-    let s = "https://api.github.com/repos/Comfy-Org/desktop/releases/latest"
+    let s = "https://api.github.com/repos/Comfy-Org/Comfy-Desktop/releases/latest"
     guard let url = URL(string: s) else { throw CheckError.urlInvalid(s) }
 
     var req = URLRequest(url: url)
