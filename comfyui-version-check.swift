@@ -139,7 +139,7 @@ func fetchLatestTag() throws -> String {
 
 func main() -> Int32 {
     let plistPath = CommandLine.arguments.dropFirst().first
-        ?? "/Applications/ComfyUI.app/Contents/Info.plist"
+        ?? "/Applications/Comfy Desktop.app/Contents/Info.plist"
 
     do {
         let local = try readPlistVersion(plistPath: plistPath)
